@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightgrey;
 }
 
 .App-logo {
@@ -36,3 +37,53 @@
     transform: rotate(360deg);
   }
 }
+
+img.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.navigation {
+  max-width: 1020px;
+}
+
+.containerStyles {
+  background-color: white;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.containerStylesRow {
+  max-width: 950px;
+  margin: auto;
+  display: flex;
+  padding: 25px 0px;
+}
+
+.cardStyles {
+  padding: 50px 25px;
+  width: 18rem;
+  text-align: left;
+}
+
+.jobStyles {
+  margin-top: 25px;
+}
+
+.containerCards {
+  margin: 25px 0px;
+  padding-bottom: 25px;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.liStyles:before { 
+  content: '\2713'; 
+  margin-left: -425px; 
+  /* margin-right: 10px;  */
+} 
