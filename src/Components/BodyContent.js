@@ -79,21 +79,21 @@ class BodyContent extends Component {
                         {/* <div className="col-lg-4 col-sm-12"></div> style={{maxWidth:450+'px'}}*/}
                         <div className="col-lg-6 col-sm-12" >
                             <ul>
-                                <li className="liStyles">
+                                <li className="liStyles" key={"ul1"}>
                                     <p>
                                         <span className="ulStyles">Peace of mind</span> -- My passion is to meet deadlines and
                                         thrill clients with the appropriate deliverables. This will continue to give you the comfort
                                         of knowing the work will be done well and efficiently. 
                                     </p>
                                 </li>
-                                <li className="liStyles">
+                                <li className="liStyles" key={"ul2"}>
                                     <p>
                                         <span className="ulStyles">More time for your loved activites</span> -- I am already familiar with 
                                         the software and technology your company uses, meaning that will make training and supervising me very
                                         minimal, allowing you to focus on your own things.
                                     </p>
                                 </li>
-                                <li className="liStyles">
+                                <li className="liStyles" key={"ul3"}>
                                     <p>
                                         <span className="ulStyles">A boost in revenue</span> -- I'm acutely aware of the need for excellence in output
                                         and client satisfaction, and that leads to client retention and spontaneous referrals for your company.
@@ -103,13 +103,13 @@ class BodyContent extends Component {
                         </div>    
                         <div className="col-lg-6 col-sm-12" >
                             <ul>
-                                <li className="liStyles">
+                                <li className="liStyles" key={"ul4"}>
                                     <p>
                                         <span className="ulStyles">Increase in productivity</span> -- With my experience, I can bring a different 
                                         work ethic that will stand out and show results necessary for the development team.
                                     </p>
                                 </li>
-                                <li className="liStyles"> 
+                                <li className="liStyles" key={"ul5"}> 
                                     <p>
                                         <span className="ulStyles">Maximize efficiency</span> -- My time organization will bring effeciency
                                         to the team and I will provide exceptional work in a timely manner. 
