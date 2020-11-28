@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class Contact extends Component {
     constructor(props) {
         super(props);
@@ -64,6 +65,7 @@ class Contact extends Component {
                                     >
                                     Send Email
                                 </button>
+                                <h6 id="success" style={{color:'green', display:'none'}}>Email successfuly sent!</h6>
                             </form>
                         </div>
                         <div className="col-lg-6 col-sm-12">
@@ -108,6 +110,8 @@ class Contact extends Component {
         variables
         ).then(res => {
         console.log('Email successfully sent!')
+        const x = document.getElementById("success");
+        x.style.display = "block";
         })
         // Handle errors here however you like, or use a React error boundary
         .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
