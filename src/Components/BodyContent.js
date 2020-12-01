@@ -18,7 +18,7 @@ class BodyContent extends Component {
         };
       }
     componentDidMount() {
-        fetch("http://localhost:8000/jobs")
+        fetch("https://jose-jobs-api.herokuapp.com/jobs")
           .then(res => res.json())
           .then(
             (result) => {
