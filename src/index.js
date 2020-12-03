@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 
 ReactDOM.render(
-    <App />
-  ,document.getElementById('root')
+    <App />,
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

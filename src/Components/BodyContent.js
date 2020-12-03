@@ -62,7 +62,7 @@ class BodyContent extends Component {
                     </div>
                 </div>
                 <div className="container" id="experience">
-                    <div className="row flex"> 
+                    <div className="row"> 
                         {items.map(item => (
                             <div className="col-lg-4 col-sm-12">
                             <h4 className="jobStyles" key={item.job}>{item.job}</h4>
@@ -121,7 +121,7 @@ class BodyContent extends Component {
                     </div>
                 </div>
                 <div className="container containerCards" id="projects">
-                    <div className="row flex">
+                    <div className="row">
                         <div className="col-lg-4 col-sm-12">
                             <div className="card cardStyles"> 
                                 <img className="card-img-top" src={vb} alt="visual basic logo" style={{height: 12+'rem'}}/>
